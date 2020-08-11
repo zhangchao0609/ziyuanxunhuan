@@ -7,6 +7,12 @@ import echarts from 'echarts'
 import Vuex from 'vuex'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import dataV from '@jiaminghi/data-view'
+import VideoPlayer from 'vue-video-player'
+// require('video.js/dist/video-js.css')
+// require('vue-video-player/src/custom-theme.css')
+import 'video.js/dist/video-js.css'
+Vue.use(VideoPlayer)
 
 
 import axios from 'axios'
@@ -15,6 +21,14 @@ Vue.prototype.$axios = axios;
 Vue.use(ElementUI);
 Vue.use(Vuex)
 Vue.config.productionTip = false
+Vue.use(dataV)
+
+import Viewer from 'v-viewer'
+import 'viewerjs/dist/viewer.css'
+Vue.use(Viewer)
+Viewer.setDefaults({
+  Options: { 'inline': true, 'button': true, 'navbar': true, 'title': true, 'toolbar': true, 'tooltip': true, 'movable': true, 'zoomable': true, 'rotatable': true, 'scalable': true, 'transition': true, 'fullscreen': true, 'keyboard': true, 'url': 'data-source' }
+})
 
 
 const store = new Vuex.Store({

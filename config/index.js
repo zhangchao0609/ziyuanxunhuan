@@ -8,8 +8,8 @@ module.exports = {
   dev: {
     // Paths
     assetsSubDirectory: 'static',
-    // assetsPublicPath: './',
     assetsPublicPath: './',
+    // assetsPublicPath: '/',
     proxyTable: {
       '/api': {
         target: 'https://jgs.jinguanshou.cn:3443/zyxhw/',  //目标接口域名   

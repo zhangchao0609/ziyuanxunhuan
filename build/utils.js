@@ -50,7 +50,7 @@ exports.cssLoaders = function (options) {
         use: loaders,
         fallback: 'vue-style-loader',
         // 打包时把下面这个注释打开
-        publicPath:'../../',
+        // publicPath:'../../',
       })
     } else {
       return ['vue-style-loader'].concat(loaders)

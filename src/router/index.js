@@ -29,6 +29,7 @@ import xinxi from '@/components/xinxi'
 import dashuju from '@/components/dashuju'
 import denglu from '@/components/denglu'
 import zhuce from '@/components/zhuce'
+import video from '@/components/video'
 
 Vue.use(Router)
 
@@ -79,6 +80,11 @@ export default new Router({
       component: dashuju,
     },
     {
+      path: '/video',
+      name: 'video',
+      component:video
+    },
+    {
       path: '/denglu',
       name: 'denglu',
       component: denglu,
@@ -87,6 +93,7 @@ export default new Router({
       path: '/zhuce',
       name: 'zhuce',
       component: zhuce,
+
     },
 
   ]

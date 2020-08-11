@@ -4,7 +4,7 @@
       <div class="heziwai">
         <div class="hzwleft">
           <div class="logohe">
-            <img src="../assets/logo.png" alt="">
+            <!-- <img src="../assets/logo2.png" alt=""> -->
           </div>
         </div>
         <div class="hzwright">
