@@ -613,11 +613,11 @@ export default {
       this.distribution('myChart')
       // this.getVideo()
 		})
-        let _this = this;
-       window.onresize = function() {
-      	_this.myChart.resize()
-      	_this.myChart2.resize()
-    }
+    //     let _this = this;
+    //    window.onresize = function() {
+    //   	_this.myChart.resize()
+    //   	_this.myChart2.resize()
+    // }
         
   },
 
@@ -860,8 +860,8 @@ export default {
  .bottomem {
      margin-top: 20px;
  }
- .yuan2{-webkit-animation:gaoxiny 0.8s 0.6s  infinite linear both;transform-origin: center center;}
-	@-webkit-keyframes gaoxiny{0%{-webkit-transform:scale(1);opacity: 0;}100%{-webkit-transform:scale(1);opacity: 1;}}
+ /* .yuan2{-webkit-animation:gaoxiny 0.8s 0.6s  infinite linear both;transform-origin: center center;}
+	@-webkit-keyframes gaoxiny{0%{-webkit-transform:scale(1);opacity: 0;}100%{-webkit-transform:scale(1);opacity: 1;}} */
 
 h1{
 			font-size: 0.35rem;
@@ -873,8 +873,8 @@ h1{
         padding:0 0.5rem;
 	}
 
-    .shouxu{-webkit-animation:gaoxiny 0.8s 0s  infinite linear both;transform-origin: center center;}
-	@-webkit-keyframes gaoxiny{0%{-webkit-transform:scale(1);opacity: 0;}100%{-webkit-transform:scale(1);opacity: 1;}}
+    /* .shouxu{-webkit-animation:gaoxiny 0.8s 0s  infinite linear both;transform-origin: center center;}
+	@-webkit-keyframes gaoxiny{0%{-webkit-transform:scale(1);opacity: 0;}100%{-webkit-transform:scale(1);opacity: 1;}} */
 
 	.zuiwai {
     width:100%;

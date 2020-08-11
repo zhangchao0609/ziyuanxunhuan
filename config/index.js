@@ -13,6 +13,7 @@ module.exports = {
     proxyTable: {
       '/api': {
         target: 'https://jgs.jinguanshou.cn:3443/zyxhw/',  //目标接口域名   
+        secure:false,
         changeOrigin: true,  //是否跨域                                                                                                                                                                                                                                                                                                                                                                                          
         pathRewrite: {
           '^/api': ''   //重写接口
